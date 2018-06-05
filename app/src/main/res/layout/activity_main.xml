@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkToy01"
+            android:layout_marginTop="@dimen/default_margin_top"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/elliot_masked"
+            android:id="@+id/imgToy01"
+            android:layout_marginRight="@dimen/default_margin_right"
+            android:layout_toRightOf="@+id/chkToy01" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elliot_masked"
+            android:layout_toRightOf="@+id/imgToy01"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:id="@+id/txtToyName01"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valor_elliot_masked"
+            android:layout_toRightOf="@+id/imgToy01"
+            android:layout_below="@+id/txtToyName01" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detalhes"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/sixteen_margin_top"
+            android:onClick="detalhesToy01"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkToy02"
+            android:layout_marginTop="@dimen/default_margin_top"/>
+
+        <ImageView
+            android:layout_width="@dimen/default_img_width"
+            android:layout_height="@dimen/default_img_height"
+            android:src="@drawable/bojack_horseman"
+            android:id="@+id/imgToy02"
+            android:layout_marginRight="@dimen/default_margin_right"
+            android:layout_toRightOf="@+id/chkToy02" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bojack_horserman"
+            android:layout_toRightOf="@+id/imgToy02"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:id="@+id/txtToyName02"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valor_bojack"
+            android:layout_toRightOf="@+id/imgToy02"
+            android:layout_below="@+id/txtToyName02" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detalhes"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/sixteen_margin_top"
+            android:onClick="detalhesToy02"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkToy03"
+            android:layout_marginTop="@dimen/default_margin_top"/>
+
+        <ImageView
+            android:layout_width="@dimen/default_img_width"
+            android:layout_height="@dimen/default_img_height"
+            android:src="@drawable/rick_mad_max"
+            android:id="@+id/imgToy03"
+            android:layout_marginRight="@dimen/default_margin_right"
+            android:layout_toRightOf="@+id/chkToy03" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rick_mad_max"
+            android:layout_toRightOf="@+id/imgToy03"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:id="@+id/txtToyName03"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valor_rick_mad_max"
+            android:layout_toRightOf="@+id/imgToy03"
+            android:layout_below="@+id/txtToyName03" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detalhes"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/sixteen_margin_top"
+            android:onClick="detalhesToy03"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/button_margin"
+        android:layout_marginRight="@dimen/button_margin"
+        android:text="@string/calcular"
+        android:onClick="calcular"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_00_00"
+        android:textAlignment="center"
+        android:textSize="@dimen/value_text_size"
+        android:id="@+id/txtCalculo"/>
+
+</LinearLayout>

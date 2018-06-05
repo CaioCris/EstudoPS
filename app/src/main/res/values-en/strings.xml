@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyPS</string>
+    <string name="elliot_masked">Elliot Masked</string>
+    <string name="valor_elliot_masked">R$20,00</string>
+    <string name="bojack_horserman">Bojack Horserman</string>
+    <string name="valor_bojack">R$15,00</string>
+    <string name="rick_mad_max">Rick MadMax</string>
+    <string name="valor_rick_mad_max">R$50,00</string>
+    <string name="detalhes">Details</string>
+    <string name="r_00_00">R$00,00</string>
+    <string name="calcular">Calculate</string>
+    <string name="details_elliot">Details Elliot Masked</string>
+    <string name="details_bojack">Destails Bojack Horseman</string>
+    <string name="details_rick">Desctails Rick MadMax</string>
+</resources>

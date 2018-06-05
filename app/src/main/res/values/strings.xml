@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EstudoPS</string>
+    <string name="elliot_masked">Elliot com máscara</string>
+    <string name="valor_elliot_masked">R$20,00</string>
+    <string name="bojack_horserman">Bojack Horserman</string>
+    <string name="valor_bojack">R$15,00</string>
+    <string name="rick_mad_max">Rick MadMax</string>
+    <string name="valor_rick_mad_max">R$50,00</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="r_00_00">R$00,00</string>
+    <string name="calcular">Calcular</string>
+    <string name="details_elliot">Descrição Elliot Mascarado</string>
+    <string name="details_bojack">Descrição Bojack Horseman</string>
+    <string name="details_rick">Descrição Rick MadMax</string>
+</resources>
